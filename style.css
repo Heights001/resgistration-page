@@ -1,0 +1,181 @@
+body {
+  padding: 5px;
+  margin: 10px auto;
+  background-color: hsl(210, 50%, 40%, 0.5);
+}
+
+.form-container {
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+
+}
+
+form {
+  width: 70%;
+}
+
+.blue { 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 10px;
+    background-color: royalblue;
+    margin-top: 0;
+ }
+
+ .introduction-container {
+  background-color: white;
+  height: 260px;
+  background-color: white;
+  border: 1px solid rgb(218, 220, 224);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin: 0;
+
+ }
+
+h1 {
+    font-weight: 400;
+    color: rgb(32,33,36);
+    line-height: 135%;
+    font-size: 32px;
+    letter-spacing: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+ }
+
+.headnote {
+    font-weight: 400;
+    color: rgb(32,33,36);
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0;
+    padding-left: 20px;
+ }
+
+
+.signin {
+    margin: 15px;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(95,99,104);
+    margin-left: 0;
+    padding-left: 20px;
+
+}
+
+.line {
+    color: rgb(32,33,36);
+    border-top: 1px solid rgb(218,220,224);
+    position: relative;
+    width: 100%;
+}
+
+.required {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+
+}
+   
+.email-container, .fullname-container, .phone-container {
+  height: 130px;
+  background-color: white;
+  border: 1px solid rgb(218, 220, 224);
+  border-radius: 10px;
+  margin: 0;
+
+}    
+
+.payment-container {
+  height: 140px;
+  background-color: white;
+  border: 1px solid rgb(218, 220, 224);
+  border-radius: 10px;
+  margin: 0;
+}
+
+
+.nok-container {
+  height: 170px;
+  background-color: white;
+  border: 1px solid rgb(218, 220, 224);
+  border-radius: 10px;
+  margin: 0;
+}
+
+.NO, .YES {
+  padding-top: 20px;
+}
+
+.self, .parent, .org {
+  padding-top: 15px;
+}
+
+label {
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 20px;
+  cursor: text;
+
+}
+
+.input-field {
+  flex-grow: 1;
+  flex-shrink: 1;
+    background-color: transparent;
+    border: none;
+    display: block;
+    height: 24px;
+    margin: 50px 24px 0px 0;
+    min-width: 0%;
+    outline: none;
+    padding: 0;
+    z-index: 0;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .2px;
+    line-height: 20px;
+    color: rgb(32,33,36);
+    border-bottom: 1px solid lightgray;
+    width: 300px;
+    padding-left: 20px;
+    cursor: text;
+}
+
+
+.layer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.bar {
+  border: none;
+  background-color: green;
+  width: 160px;
+  height: 10px;
+  border-radius: 20px;
+  margin: 0;
+  display: inline-block;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+
+.submit {
+  background-color: lightskyblue;
+  width: 100px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
